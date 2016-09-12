@@ -10,16 +10,11 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-<<<<<<< HEAD:Project1.gmx/Project1.project.gmx
-  <rooms name="rooms">
-    <room>rooms\room0</room>
-=======
   <objects name="objects">
     <object>objects\Player</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Endless_Falling</room>
->>>>>>> origin/master:Falling-Android.gmx/Falling-Android.project.gmx
+    <room>rooms\Falling_Room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
