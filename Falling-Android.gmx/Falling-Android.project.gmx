@@ -5,9 +5,14 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\Player_Sprite</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\Player</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\Endless_Falling</room>
   </rooms>
