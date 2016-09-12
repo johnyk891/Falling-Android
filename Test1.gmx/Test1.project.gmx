@@ -12,6 +12,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\Player</object>
+    <object>objects\SCR</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
