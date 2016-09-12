@@ -5,11 +5,21 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\Player_Sprite</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+<<<<<<< HEAD:Project1.gmx/Project1.project.gmx
   <rooms name="rooms">
     <room>rooms\room0</room>
+=======
+  <objects name="objects">
+    <object>objects\Player</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Endless_Falling</room>
+>>>>>>> origin/master:Falling-Android.gmx/Falling-Android.project.gmx
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
