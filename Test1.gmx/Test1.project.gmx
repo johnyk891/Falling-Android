@@ -7,9 +7,11 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
+    <sprite>sprites\spr_notification</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\fnt_Numbers</font>
   </fonts>
@@ -17,6 +19,9 @@
     <object>objects\obj_Player</object>
     <object>objects\SCR</object>
     <object>objects\obj_score</object>
+    <object>objects\obj_notification</object>
+    <object>objects\obj_spawn</object>
+    <object>objects\obj_restarter</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Falling_Room</room>
