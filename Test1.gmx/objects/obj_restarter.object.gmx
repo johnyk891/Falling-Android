@@ -48,10 +48,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>time += 1;
-if time &gt;= 180
+            <string>time += 1
+if time &gt;= 60
 {
-    time = 0;
+    time = 0
     room_restart();
 }
 </string>

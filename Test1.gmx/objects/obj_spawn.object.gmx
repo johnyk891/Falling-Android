@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(random_range(0-128, room_width-128), room_height-64, obj_notification);
+            <string>instance_create(random_range(0-128, room_width-128), room_height, obj_notification);
 </string>
           </argument>
         </arguments>
