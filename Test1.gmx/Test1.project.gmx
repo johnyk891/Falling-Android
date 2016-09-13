@@ -10,9 +10,13 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_Numbers</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_Player</object>
     <object>objects\SCR</object>
+    <object>objects\obj_score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Falling_Room</room>
