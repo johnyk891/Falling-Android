@@ -55,11 +55,11 @@ x=clamp(x, 0, view_wview);
 global.points+=1.665;
 //Sprite Direction
 dir = device_get_tilt_x(); 
-if(dir &lt; 0)
+if(dir &lt; -0.10)
 {
     sprite_index=spr_Player_Right;
 }
-else
+else if (dir &gt; 0.10)
 {
     sprite_index=spr_Player_Left;
 }

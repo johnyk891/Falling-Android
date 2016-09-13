@@ -18,7 +18,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_Player</object>
-    <object>objects\SCR</object>
+    <object>objects\obj_SCR</object>
     <object>objects\obj_score</object>
     <object>objects\obj_notification</object>
     <object>objects\obj_spawn</object>
