@@ -48,9 +48,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text_transformed(64,-96,global.points, 3, 3,image_angle);
+            <string>draw_set_font(fnt_Numbers);
+draw_text_transformed(32,-96,"Score:", 3, 3,image_angle);
+draw_text_transformed(192,-96,global.points, 3, 3,image_angle);
+texture_set_interpolation(false);
 draw_set_color(c_green);
-draw_set_font(fnt_Numbers);
 
 
 </string>
