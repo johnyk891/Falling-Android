@@ -39,8 +39,8 @@ var aspect = display_get_width() / display_get_height();
 if (max_w &lt; max_h)
     {
     // portait
-    var VIEW_WIDTH = min(base_w, max_w);
-    var VIEW_HEIGHT = VIEW_WIDTH / aspect;
+    var VIEW_WIDTH = min(base_w, max_w)-64;
+    var VIEW_HEIGHT = (VIEW_WIDTH / aspect);
     }
 view_wview[0] = floor(VIEW_WIDTH);
 view_hview[0] = floor(VIEW_HEIGHT);
