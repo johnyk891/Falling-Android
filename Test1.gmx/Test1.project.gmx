@@ -12,10 +12,10 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_Player</object>
-    <object>objects\object2</object>
+    <object>objects\SCR</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\Falling_Room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
