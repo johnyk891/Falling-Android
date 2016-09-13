@@ -6,13 +6,13 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Player_Sprite</sprite>
+    <sprite>sprites\spr_Player</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\Player</object>
-    <object>objects\SCR</object>
+    <object>objects\obj_Player</object>
+    <object>objects\object2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
