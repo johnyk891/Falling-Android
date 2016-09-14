@@ -54,16 +54,21 @@ x=clamp(x, 0, view_wview);
 //Score
 global.points+=1.665;
 //Sprite Direction
+global.tilt=device_get_tilt_x();
 dir = device_get_tilt_x(); 
-if(dir &lt; -0.15)
+if(dir &lt; -0.18)
 {
     sprite_index=spr_Player_Right;
 }
-else if (dir &gt; 0.15)
+else if (dir &gt; 0.18)
 {
     sprite_index=spr_Player_Left;
 }
-else
+else if (dir &gt;= 0 and dir &lt; 0.14)
+{
+    sprite_index=spr_Player_Idle;
+}
+else if ( dir &lt;0 and dir &gt;-0.14)
 {
     sprite_index=spr_Player_Idle;
 }
