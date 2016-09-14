@@ -3,7 +3,7 @@
   <spriteName>spr_notification</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>global.countdown = random_range(2.0,5.0)
+
 showTime = ceil(global.countdown)
 </string>
           </argument>
@@ -50,18 +51,45 @@ showTime = ceil(global.countdown)
           <argument>
             <kind>1</kind>
             <string>global.countdown -= delta_time/1000000
+
 if not global.countdown = 0
 {
     exit
 }
 else
 {
-    instance_create(obj_notification.x + 53/2, obj_notification.y - 61, obj_bullet)
+    instance_create(obj_notification.x + 53/2, obj_notification.y-61, obj_bullet)
     with (obj_notification)
     {
         instance_destroy()
     }
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//Countdown
+draw_self();
+draw_text_transformed_color(obj_notification.x + 30/2, obj_notification.y-61*2,ceil(global.countdown),2,2,image_angle,c_black,c_black,c_black,c_black,1);
+
 </string>
           </argument>
         </arguments>
