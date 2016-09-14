@@ -25,7 +25,6 @@
     <object>objects\obj_score</object>
     <object>objects\obj_counter</object>
     <object>objects\obj_notification</object>
-    <object>objects\obj_notification_nums</object>
     <object>objects\obj_spawn</object>
     <object>objects\obj_restarter</object>
     <object>objects\obj_bullet</object>
