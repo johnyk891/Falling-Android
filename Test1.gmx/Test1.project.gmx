@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_Player2</sprite>
     <sprite>sprites\spr_Player_Idle</sprite>
     <sprite>sprites\spr_Player_Left</sprite>
@@ -15,15 +16,19 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <fonts name="fonts">
+    <font>fonts\fnt_Notification_Nums</font>
     <font>fonts\fnt_Numbers</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_Player</object>
     <object>objects\obj_SCR</object>
     <object>objects\obj_score</object>
+    <object>objects\obj_counter</object>
     <object>objects\obj_notification</object>
+    <object>objects\obj_notification_nums</object>
     <object>objects\obj_spawn</object>
     <object>objects\obj_restarter</object>
+    <object>objects\obj_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Falling_Room</room>
